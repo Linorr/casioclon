@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="Description" content="calculadora">
+    <meta name="theme-color" content="#514757"/>
+
+    <title>CALCULATOR CASIO</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media_query.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="css/images/icons/icon-512x512.png">
+ </head>
+
+<body class="no-select">
+    <noscript>
+        <h1>Javascript esta deshabilitado</h1>
+    </noscript>
+    <main>
+        <div>
+            <!-- imagen calculadora -->
+            <img src="css/images/casio.jpg" alt="casio calculator" id="casio">
+
+            <!-- imagenes de los botones numericos -->
+            <img src="css/images/btn_0.jpg" alt="boton 0" id="btn_0" class="btn">
+            <img src="css/images/btn_1.jpg" alt="boton 1" id="btn_1" class="btn">
+            <img src="css/images/btn_2.jpg" alt="boton 2" id="btn_2" class="btn">
+            <img src="css/images/btn_3.jpg" alt="boton 3" id="btn_3" class="btn">
+            <img src="css/images/btn_4.jpg" alt="boton 4" id="btn_4" class="btn">
+            <img src="css/images/btn_5.jpg" alt="boton 5" id="btn_5" class="btn">
+            <img src="css/images/btn_6.jpg" alt="boton 6" id="btn_6" class="btn">
+            <img src="css/images/btn_7.jpg" alt="boton 7" id="btn_7" class="btn">
+            <img src="css/images/btn_8.jpg" alt="boton 8" id="btn_8" class="btn">
+            <img src="css/images/btn_9.jpg" alt="boton 9" id="btn_9" class="btn">
+            <img src="css/images/btn_dot.jpg" alt="boton dot" id="btn_dot" class="btn">
+
+            <!-- imagenes de los botones de operaciones -->
+            <img src="css/images/btn_sumar.jpg" alt="boton sumar" id="btn_sumar" class="btn">
+            <img src="css/images/btn_restar.jpg" alt="boton dot" id="btn_restar" class="btn">
+            <img src="css/images/btn_multiplicar.jpg" alt="boton multiplicar" id="btn_multiplicar" class="btn">
+            <img src="css/images/btn_dividir.jpg" alt="boton dividir" id="btn_dividir" class="btn">
+            <img src="css/images/btn_raiz.jpg" alt="boton raiz" id="btn_raiz" class="btn">
+            <img src="css/images/btn_porcentaje.jpg" alt="boton porcentaje" id="btn_porcentaje" class="btn">
+            <img src="css/images/btn_igual.jpg" alt="boton dot" id="btn_igual" class="btn">
+            
+            <!-- imagenes de los botones de funciones -->
+            <img src="css/images/btn_ac.jpg" alt="boton ac" id="btn_ac" class="btn">
+            <img src="css/images/btn_c.jpg" alt="boton c" id="btn_c" class="btn">
+            <img src="css/images/btn_signo.jpg" alt="boton signo" id="btn_signo" class="btn">
+            <img src="css/images/btn_memory_record.jpg" alt="boton memory record" id="btn_memory_record" class="btn">
+            <img src="css/images/btn_memory_restar.jpg" alt="boton memory restar" id="btn_memory_restar" class="btn">
+            <img src="css/images/btn_memory_sumar.jpg" alt="boton memory sumar" id="btn_memory_sumar" class="btn">
+            <img src="css/images/btn_off.jpg" alt="boton off" id="btn_off" class="btn">
+            
+            <!-- imagenes de los displays -->
+            <div id="main_display"></div>
+            <div id="aux_display"></div>
+        </div>
+    </main>
+
+    <script src="js/app.js"></script>
+    <script src="sw.js"></script>
+    <script src="js/referencias.js"></script>
+    <script src="js/display.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/buttons.js"></script>
+    <script src="js/memory.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/listeners.js"></script>
+    <script src="js/efectos.js"></script>
+</body>
+
+</html>
